@@ -95,7 +95,7 @@ function countSheepSleep(sleepSheep) {
     }
   });
 
-  return console.log(`Hay ${cont} ovejas dormidas.`);
+  console.log(`Hay ${cont} ovejas dormidas.`);
 };
 
 console.log(
