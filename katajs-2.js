@@ -96,12 +96,29 @@ function countSheepSleep(sleepSheep) {
   });
 
   console.log(`Hay ${cont} ovejas dormidas.`);
+
 };
 
 console.log(
   "--------------------------------Ejercicio 4-----------------------------------------"
 );
 countSheepSleep(sleepSheep);
+
+// VERSION FILTER
+
+function countSleepSheepFilter (sleepSheep) {
+  const sheepCont = sleepSheep.filter(function (sheep){
+    return sheep === true;
+  });
+
+  console.log(`Hay ${sheepCont.length} ovejas dormidas.`);
+
+};
+
+console.log(
+  "--------------------------------Ejercicio 4 Filter---------------------------------"
+);
+countSleepSheepFilter(sleepSheep);
 
 // Crea un objeto planeta tierra que tenga las siguientes propiedades:
 // distancia al sol, sus vecinos (planetas mas proximos),
