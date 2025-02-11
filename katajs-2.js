@@ -146,7 +146,7 @@ const planet = {
     " Clorofluorocarburos (CFC)",
     " y Vapor de agua",
   ],
-  greet() {
+  greet: function () {
     console.log(
       `Hola, soy el planeta ${this.name}. Mi distancia al sol es ${this.distanceToSun} km., mi distancia a ${this.planetBefore[0]} es de ${this.planetBefore[1]} km. y de ${this.planetAfter[0]} es de ${this.planetAfter[1]} y estoy compuesto de ${this.composition}.`
     );
